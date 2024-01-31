@@ -1,4 +1,4 @@
-from random import *
+﻿from random import *
 
 #1
 z = "   (\_/)\n   (o o)\n   / | \*"
@@ -20,7 +20,7 @@ print(sum)
 rand = randint(1,100)
 print(rand)
 for i in range(0, 10):
-    vastus = int(input("proovi �ra arvata 10 katse arv. "))
+    vastus = int(input("proovi ära arvata 10 katse arv. "))
     if vastus == rand:
         print("jah!")
         break
@@ -45,7 +45,9 @@ while arv > 0:
     arv = arv // 10
     summ += str(digit)
 
-print(summ)
+print(summ.len())
+#v3
+
 
 #5
 arv = str(input("Sisetsa numbrid"))

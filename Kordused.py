@@ -1,7 +1,7 @@
 ﻿from random import *
 
 #1
-z = "   (\_/)\n   (o o)\n   / | \*"
+z = "   (\_/)\n   (o o)\n   / | \*" #Jänesega muutuja
 arv = int(input("mitu "))
 for i in range(0, 9):
     for j in range(0, arv):
@@ -37,15 +37,14 @@ print(summ)
 
 #v2
 arv = int(input("Siseta numbrid "))
-arv1 = 0
-summ = ""
+summ = "" #Muutuja, milles hoitakse pöördnumbrit
 
 while arv > 0:
     digit = arv % 10
     arv = arv // 10
     summ += str(digit)
 
-print(summ.len())
+print(summ)
 #v3
 
 

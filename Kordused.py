@@ -10,7 +10,7 @@ for i in range(0, 9):
 
 #2
 sum = 0
-r = int(input("mitu"))
+r = int(input("Siseta numbrid"))
 for i in range(0, r):
     sum += i
 
@@ -29,14 +29,14 @@ for i in range(0, 10):
         
 #4
 #v1
-arv = str(input("mitu "))
+arv = str(input("Siseta numbrid "))
 summ = ""
 for i in reversed(arv):
     summ += i
 print(summ)        
 
 #v2
-arv = int(input("mitu "))
+arv = int(input("Siseta numbrid "))
 arv1 = 0
 summ = ""
 
@@ -48,7 +48,7 @@ while arv > 0:
 print(summ)
 
 #5
-arv = str(input("mitu "))
+arv = str(input("Sisetsa numbrid"))
 summ = 0
 urutamine = 1
 for i in arv:
